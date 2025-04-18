@@ -17,10 +17,10 @@ body{
     color: #777;
 }
 .all .h h2{
-font-size: 35px;
-font-weight: normal;
-text-transform:uppercase ;
-font-family: system-ui
+    font-size: 35px;
+    font-weight: normal;
+    text-transform:uppercase ;
+    font-family: system-ui
 }
 .all .h{
     position: relative;
@@ -28,22 +28,22 @@ font-family: system-ui
 .all .h::before{
     content: "";
     position: absolute;
-width: 8%;
-height: 1px;
-background: rgb(0, 0, 0);
-bottom: -30%;
-left:46%;
+    width: 8%;
+    height: 1px;
+    background: rgb(0, 0, 0);
+    bottom: -30%;
+    left:46%;
 }
 .all .h::after{
     content: "";
     position: absolute;   
     width: 9px;
-height: 9px;
-border-radius: 50%;
-border: black 2px solid;
-bottom: -44.1%;
-left: 49.5%;
-background: #ffffff;
+    height: 9px;
+    border-radius: 50%;
+    border: black 2px solid;
+    bottom: -44.1%;
+    left: 49.5%;
+    background: #ffffff;
 }
 /* end globul head */
 @media (min-width:768px) {
@@ -90,7 +90,7 @@ background-size: cover;
 .backgroung .overlay .list{
     display: grid;
     grid-template-columns: 30% repeat(6,10%) 2%;
-line-height: 22px;
+    line-height: 22px;
 }
 .backgroung .overlay .list img{
     border-radius: 50%;
@@ -116,9 +116,9 @@ line-height: 22px;
     content: "";
     position: absolute;
     background: #a2a2a2;
-width: 71%;
-height: 2px;
-bottom: 566px;
+    width: 71%;
+    height: 2px;
+    bottom: 566px;
 }
 
 .align ul li a:hover, .align ul li .active{
@@ -127,13 +127,13 @@ bottom: 566px;
 }
 .overlay .text{
     position: absolute;
-background: var(--transparant-color);
-width: 50%;
-top: 38%;
-display: flex;
-flex-direction: column;
-justify-content: end;
-align-items: end;
+    background: var(--transparant-color);
+    width: 50%;
+    top: 38%;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: end;
 }
 @media (max-width:767px) {
     .overlay .text{
@@ -166,7 +166,6 @@ align-items: end;
     color: white;
     font-size: 24px;
 }
- 
 .services{
     padding-bottom: var(--section-padding);
     width: 90%;
@@ -200,7 +199,7 @@ align-items: end;
 @media (max-width:994px) {
     .services .col1 .sec1 .icon{
         padding: 0px;
-      line-height: 2; 
+        line-height: 2; 
     }
 }
 .services .col1 .sec1 .text h3{
@@ -337,8 +336,8 @@ transform: rotate(3deg) scale(1.1);
     text-align: center;
 }
 .endp{
-display: flex;
-justify-content: center;
+    display: flex;
+    justify-content: center;
 }
 .video{
     width: 94%;
@@ -390,10 +389,10 @@ margin-top: -123px;
 }
 @media (max-width:767px) {
     .about img{
-       width: 90%;
-       position: relative;
-       left: 2%;
-        }  
+        width: 90%;
+        position: relative;
+        left: 2%;
+    }  
 }
 .stats{
     position: relative;
@@ -403,16 +402,14 @@ margin-top: -123px;
     background-size: cover;
 }
 @media (max-width:767px) {
-    
     .stats{
-       height: 800px;
-
+        height: 800px;
     }
 }
 @media (min-width:768px) {
-   .stats{
+    .stats{
     height: 650px;
-   }
+    }
 }
 .stats .text{
     position: absolute;
@@ -428,18 +425,17 @@ margin-top: -123px;
 }
 @media (max-width:767px) {
     .stats .text .box{
-       width: 100%;
+        width: 100%;
     }
     .stats .text{
         width: 100%;
         left: 0 ;
         height: 590px;
-
     }
 }
 @media (min-width:768px) {
     .stats .text .box{
-       width: 50%;
+        width: 50%;
     }
     .stats .text{
 height: 400px;
@@ -447,7 +443,7 @@ height: 400px;
 }
 @media (min-width:991px) {
     .stats .text .box{
-       width: 25%;
+        width: 25%;
     }
 }
 .stats .text .box .number{
@@ -472,19 +468,18 @@ height: 400px;
 }
 @media (max-width:767px) {
     .statics{
-       flex-direction: column;
-       width: 100%;
-}
+        flex-direction: column;
+        width: 100%;
+    }
 }
 .statics .testimonials{
-   width: 45%;
+    width: 45%;
 }
 @media (max-width:767px) {
     .statics .testimonials{
         width: 100%;
-     }
+    }
 }
-
 .statics .testimonials .head{
     text-align: center;
 }
@@ -495,7 +490,6 @@ height: 400px;
     color: #b9b9b9;
     line-height: 1.5;
     margin-bottom: 50px;
-
 }
 .statics .testimonials .profile .imge img{
     border-radius: 50%;
@@ -523,7 +517,7 @@ line-height: 1.5;
     margin-bottom: 110px;
 }
 .om .bullets li{
-   border: black 1px solid;
+    border: black 1px solid;
 }
 .statics .skills{
     width: 45%;
@@ -532,7 +526,6 @@ line-height: 1.5;
 @media (max-width:767px) {
     .statics .skills{
         width: 100%;
-       
     }
 }
 .statics .skills .heade h4{
@@ -547,13 +540,13 @@ line-height: 1.5;
     text-align: left
 }
 .skills .prog-holder .prog{
-   background-color: #dededc;
-   height: 20px;
+    background-color: #dededc;
+    height: 20px;
 }
 .skills .prog-holder .prog span{
     display: block;
-   background-color: var(--main-color);
-   height: 20px;
+    background-color: var(--main-color);
+    height: 20px;
 position: relative;
 }
 .skills .prog-holder .prog span::after{
@@ -569,13 +562,13 @@ position: relative;
     border-radius: 7px;
 }
 .skills .prog-holder .prog span::before{
-content: "";
-position: absolute;
-border-color: black transparent transparent transparent ;
-border-style: solid;
-border-width:8px ;
-right: -7px;
-top: -10px;
+    content: "";
+    position: absolute;
+    border-color: black transparent transparent transparent ;
+    border-style: solid;
+    border-width:8px ;
+    right: -7px;
+    top: -10px;
 }
 .q{
     background-image: url(k.jpg);
@@ -591,10 +584,10 @@ top: -10px;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-   position: relative;
-   width: 100%;
-   height: 100%;
-  background: rgb(0 0 0 / 54%);
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background: rgb(0 0 0 / 54%);
 }
 .q .back q {
     position: relative;
@@ -623,7 +616,6 @@ top: -10px;
         flex-direction: column;
         text-align: center;
         gap: 100px;
-
     }
 }
 .pricing .column .price{
@@ -638,8 +630,7 @@ height: 412px;
     .pricing .column{
         width: 100%;
         height: 412px;
-
-        }
+    }
 }
 .pricing .column .price p{
     font-size: 28px;
@@ -677,27 +668,24 @@ height: 412px;
 }
 .pricing .column .body p{
     font-family: system-ui;
-   border-bottom: 1px solid var(--main-color);
+    border-bottom: 1px solid var(--main-color);
 width: 50%;
 }
 .pricing .column .body p.no{
-   border-bottom: 0px solid var(--main-color);
-width: 50%;
+    border-bottom: 0px solid var(--main-color);
+    width: 50%;
 }
 .pricing .column .foot{
-  position: relative;
-  display: flex;
-  justify-content: center;
-margin: 20px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin: 20px;
 }
 .pricing .column .foot a{
     text-decoration-line: none;
     color: black;
     padding: 11px 20px;
     border: 1px solid var(--main-color);
-    /* position: absolute;
-    bottom: -75px;
-    left: 23%; */
     margin-bottom: 18px;
 }
 
@@ -727,7 +715,7 @@ margin: 20px;
 }
 .end{
     margin: 0;
-   background: rgb(21, 13, 62);
+    background: rgb(21, 13, 62);
     height: 200px;
     display: flex;
     justify-content: center;
